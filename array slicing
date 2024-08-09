@@ -1,0 +1,24 @@
+import numpy as np
+ar_name=np.array([[1,2,4,6],[5,6,7,8],[3,4,6,9],[1,5,8,9]])
+print("display all the elemnts:\n",ar_name[0:3,0:3])
+print("display elements excluding firstrow:\n",ar_name[1:,:])
+print("display elements excluding last column:\n",ar_name[:,:3])
+
+
+output:
+C:\Users\mlm\PycharmProjects\pythonProject2\venv\Scripts\python.exe C:\Users\mlm\PycharmProjects\pythonProject2\progrm3.py 
+display all the elemnts:
+ [[1 2 4]
+ [5 6 7]
+ [3 4 6]]
+display elements excluding firstrow:
+ [[5 6 7 8]
+ [3 4 6 9]
+ [1 5 8 9]]
+display elements excluding last column:
+ [[1 2 4]
+ [5 6 7]
+ [3 4 6]
+ [1 5 8]]
+
+Process finished with exit code 0
