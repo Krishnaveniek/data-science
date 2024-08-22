@@ -1,0 +1,24 @@
+import numpy as np
+ar1=np.array([[2,4],[5,6]])
+print("determinant of a matrix")
+print(np.linalg.det(ar1))
+print("inverse of a matrix")
+print(np.linalg.inv(ar1))
+print("rank of a matrix")
+print(np.linalg.matrix_rank(ar1))
+print("matrix into 1d array")
+print(np.reshape(ar1,-1))
+
+output:
+C:\Users\mlm\AppData\Local\Programs\Python\Python310\python.exe C:\Users\mlm\PycharmProjects\square.py 
+determinant of a matrix
+-7.999999999999998
+inverse of a matrix
+[[-0.75   0.5  ]
+ [ 0.625 -0.25 ]]
+rank of a matrix
+2
+matrix into 1d array
+[2 4 5 6]
+
+Process finished with exit code 0
