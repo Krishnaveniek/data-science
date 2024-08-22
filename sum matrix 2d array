@@ -1,0 +1,43 @@
+import numpy as np
+ar1=np.array([[2,4],[5,6]])
+ar2=np.array([[5,6],[7,8]])
+print("matrix addition")
+print(np.add(ar1,ar2))
+print("matrix substract")
+print(np.subtract(ar1,ar2))
+print("matrix multiplication")
+print(np.multiply(ar1,ar2))
+print("matrix division")
+print(np.divide(ar1,ar2))
+print("perform matrix multiplication")
+print(np.dot(ar1,ar2))
+print("matrix transpose")
+print(ar1.transpose())
+print("diagonal matrix")
+print(np.trace(ar1))
+
+
+output:
+C:\Users\mlm\AppData\Local\Programs\Python\Python310\python.exe C:\Users\mlm\PycharmProjects\sum.py 
+matrix addition
+[[ 7 10]
+ [12 14]]
+matrix substract
+[[-3 -2]
+ [-2 -2]]
+matrix multiplication
+[[10 24]
+ [35 48]]
+matrix division
+[[0.4        0.66666667]
+ [0.71428571 0.75      ]]
+perform matrix multiplication
+[[38 44]
+ [67 78]]
+matrix transpose
+[[2 5]
+ [4 6]]
+diagonal matrix
+8
+
+Process finished with exit code 0
