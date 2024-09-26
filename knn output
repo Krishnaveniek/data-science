@@ -1,0 +1,47 @@
+C:\Users\mlm\AppData\Local\Programs\Python\Python310\python.exe C:\Users\mlm\PycharmProjects\pythonProject3\knn.py 
+              precision    recall  f1-score   support
+
+      Setosa       0.89      1.00      0.94         8
+  Versicolor       1.00      0.88      0.93         8
+   Virginica       1.00      1.00      1.00        14
+
+    accuracy                           0.97        30
+   macro avg       0.96      0.96      0.96        30
+weighted avg       0.97      0.97      0.97        30
+
+Accuracy :  0.9666666666666667
+   Real Values Predicted Values
+0       Setosa           Setosa
+1   Versicolor           Setosa
+2       Setosa           Setosa
+3   Versicolor       Versicolor
+4       Setosa           Setosa
+5   Versicolor       Versicolor
+6    Virginica        Virginica
+7   Versicolor       Versicolor
+8    Virginica        Virginica
+9    Virginica        Virginica
+10  Versicolor       Versicolor
+11   Virginica        Virginica
+12  Versicolor       Versicolor
+13   Virginica        Virginica
+14   Virginica        Virginica
+15   Virginica        Virginica
+16      Setosa           Setosa
+17      Setosa           Setosa
+18   Virginica        Virginica
+19   Virginica        Virginica
+20   Virginica        Virginica
+21  Versicolor       Versicolor
+22      Setosa           Setosa
+23      Setosa           Setosa
+24   Virginica        Virginica
+25   Virginica        Virginica
+26      Setosa           Setosa
+27   Virginica        Virginica
+28   Virginica        Virginica
+29  Versicolor       Versicolor
+
+ Predicted class: Setosa
+
+Process finished with exit code 0
