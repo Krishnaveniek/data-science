@@ -24,3 +24,22 @@ mismatches = (y_test != y_pred)
 print("\n Mismatching records (Actual vs Predicted):")
 for actual, predicted in zip(y_test[mismatches], y_pred[mismatches]):
     print(f"Actual: {actual}, Predicted: {predicted}")
+
+output:
+['Setosa' 'Virginica' 'Setosa' 'Virginica' 'Virginica' 'Setosa'
+ 'Virginica' 'Versicolor' 'Versicolor' 'Setosa' 'Virginica' 'Versicolor'
+ 'Versicolor' 'Virginica' 'Virginica' 'Virginica' 'Versicolor' 'Setosa'
+ 'Setosa' 'Setosa' 'Versicolor' 'Virginica' 'Versicolor' 'Versicolor'
+ 'Versicolor' 'Virginica' 'Versicolor' 'Setosa' 'Versicolor' 'Versicolor'] 
+
+
+ Accuracy :  0.9333333333333333
+
+ Number of mislabeled points: 2 out of 30
+
+ Mismatching records (Actual vs Predicted):
+Actual: Versicolor, Predicted: Virginica
+Actual: Virginica, Predicted: Versicolor
+
+Process finished with exit code 0
+
